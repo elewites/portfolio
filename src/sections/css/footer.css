@@ -1,0 +1,89 @@
+.footer-container {
+  background-color: white;
+  width: 800px;
+  height: 180px;
+  border-top: 1px solid rgb(192, 191, 191);
+  border-radius: 0px 0px 8px 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.stack {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack img {
+  margin: 10px 20px;
+}
+
+.mongo {
+  height: 40px;
+}
+
+.express {
+  height: 40px;
+}
+
+.react {
+  height: 60px;
+}
+
+.node {
+  height: 60px;
+}
+
+.stack_text {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.footer-container a {
+  font-size: 12px;
+  margin: 0px 10px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 3px;
+  box-sizing: border-box;
+
+  transition: background-color 0.5s;
+  transition: color 0.5ss;
+}
+
+.footer-container a:link,
+.footer-container a:visited {
+  color: grey;
+  text-decoration: none;
+  cursor: auto;
+}
+
+.footer-container a:link:active,
+.footer-container a:visited:active {
+  color: grey;
+}
+
+.footer-container a:hover {
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.contact p {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  border: 1px solid black;
+}

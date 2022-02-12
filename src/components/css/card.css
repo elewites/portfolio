@@ -1,0 +1,23 @@
+.card-container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: space-evenly;
+  border: none !important;
+}
+
+.card-container img {
+  display: flex;
+  height: 150px;
+}
+
+.title {
+  text-align: center;
+  font-size: 18px;
+  color: #2f4255;
+}
+
+.description {
+  font-size: 12px;
+  text-align: center;
+}

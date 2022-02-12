@@ -1,0 +1,40 @@
+import React from "react";
+import "./css/footer.css";
+
+import Resume from "../images/eros.pdf";
+
+import ReactLogo from "../images/react.png";
+import ExpressLogo from "../images/express.png";
+import MongoLogo from "../images/mongo.png";
+import NodeLogo from "../images/node.png";
+
+function Footer() {
+  return (
+    <div className="footer-container">
+      <p className="stack_text">My favorite technologies</p>
+      <div className="stack">
+        <img alt="mongo" src={MongoLogo} className="mongo"></img>
+        <img alt="express" src={ExpressLogo} className="express"></img>
+        <img alt="react" src={ReactLogo} className="react"></img>
+        <img alt="node" src={NodeLogo} className="node"></img>
+      </div>
+      <div className="contact">
+        <a
+          href="https://www.linkedin.com/in/eros-rodriguez-680757209/"
+          target="_blank"
+        >
+          LinkedIn
+        </a>
+        <a href={Resume} target="_blank">
+          Resume
+        </a>
+        <a href="mailto:elewites@gmail.com">Email</a>
+        <a href="https://github.com/elewites" target="_blank">
+          Github
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default Footer;
