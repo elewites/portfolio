@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/footer.css";
 
-import Resume from "../images/eros.pdf";
+import Resume from "../images/resume_2022.pdf";
 
 import ReactLogo from "../images/react.png";
 import ExpressLogo from "../images/express.png";
@@ -13,10 +13,14 @@ function Footer() {
     <div className="footer-container">
       <p className="stack_text">My favorite technologies</p>
       <div className="stack">
-        <img alt="mongo" src={MongoLogo} className="mongo"></img>
-        <img alt="express" src={ExpressLogo} className="express"></img>
-        <img alt="react" src={ReactLogo} className="react"></img>
-        <img alt="node" src={NodeLogo} className="node"></img>
+        <div className="left-or-top">
+          <img alt="mongo" src={MongoLogo} className="mongo"></img>
+          <img alt="express" src={ExpressLogo} className="express"></img>
+        </div>
+        <div className="right-or-bottom">
+          <img alt="react" src={ReactLogo} className="react"></img>
+          <img alt="node" src={NodeLogo} className="node"></img>
+        </div>
       </div>
       <div className="contact">
         <a

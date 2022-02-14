@@ -1,19 +1,34 @@
 .footer-container {
   background-color: white;
-  width: 800px;
-  height: 180px;
+  width: 400px;
+  height: 200px;
   border-top: 1px solid rgb(192, 191, 191);
   border-radius: 0px 0px 8px 8px;
 
   display: flex;
   flex-direction: column;
+
 }
 
 .stack {
-  height: 90px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.left-or-top {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+.right-or-bottom {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+
 }
 
 .contact {
@@ -22,6 +37,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  border-top: 1px solid rgb(192, 191, 191);
 }
 
 .stack img {
@@ -29,25 +45,25 @@
 }
 
 .mongo {
-  height: 40px;
+  height: 30px;
 }
 
 .express {
-  height: 40px;
+  height: 30px;
 }
 
 .react {
-  height: 60px;
+  height: 50px;
 }
 
 .node {
-  height: 60px;
+  height: 50px;
 }
 
 .stack_text {
   font-size: 18px;
-  margin-top: 25px;
   margin-bottom: 0px;
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -86,4 +102,119 @@
   flex-direction: row;
   font-size: 18px;
   border: 1px solid black;
+}
+
+.contact {}
+
+
+@media only screen and (min-width: 600px) {
+  .footer-container {
+    background-color: white;
+    width: 800px;
+    height: 180px;
+    border-top: 1px solid rgb(192, 191, 191);
+    border-radius: 0px 0px 8px 8px;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stack {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: row;
+  }
+
+  .left-or-top {
+    display: auto;
+    align-items: stretch;
+
+    justify-content: space-evenly;
+    width: auto;
+  }
+
+  .right-or-bottom {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: auto;
+
+
+  }
+
+  .contact {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stack img {
+    margin: 10px 20px;
+  }
+
+  .mongo {
+    height: 40px;
+  }
+
+  .express {
+    height: 40px;
+  }
+
+  .react {
+    height: 60px;
+  }
+
+  .node {
+    height: 60px;
+  }
+
+  .stack_text {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .footer-container a {
+    font-size: 12px;
+    margin: 0px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 3px;
+    box-sizing: border-box;
+
+    transition: background-color 0.5s;
+    transition: color 0.5ss;
+  }
+
+  .footer-container a:link,
+  .footer-container a:visited {
+    color: grey;
+    text-decoration: none;
+    cursor: auto;
+  }
+
+  .footer-container a:link:active,
+  .footer-container a:visited:active {
+    color: grey;
+  }
+
+  .footer-container a:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+  }
+
+  .contact p {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    border: 1px solid black;
+  }
+
 }

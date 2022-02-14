@@ -8,7 +8,7 @@
 
 .card-container img {
   display: flex;
-  height: 150px;
+  height: 70px;
 }
 
 .title {
@@ -24,4 +24,34 @@
 .description {
   font-size: 11px;
   text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .card-container {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-evenly;
+    border: none !important;
+  }
+
+  .card-container img {
+    display: flex;
+    height: 150px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 18px;
+    color: #2f4255;
+  }
+
+  .title:hover {
+    color: rgb(233, 108, 108);
+  }
+
+  .description {
+    font-size: 11px;
+    text-align: center;
+  }
 }

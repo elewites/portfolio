@@ -1,15 +1,20 @@
 .banner-cointainer {
-  height: 250px;
-  width: 800px;
+  height: 170px;
+  width: 400px;
   background-color: white;
 
   display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 
   border-radius: 8px 8px 0px 0px;
 }
 
 .banner-cointainer img {
-  height: 250px;
+  position: absolute;
+  height: 170px;
+  top: 50px;
+  left: 245px;
   cursor: pointer;
 }
 
@@ -18,32 +23,86 @@ p {
 }
 
 .hello {
-  font-size: 25px;
-  padding-left: 80px;
+  font-size: 16px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  width: 502px;
-}
-
-.pointer {
-  font-size: 14px;
-  text-align: end;
-  margin-top: 43px;
-  padding-right: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 200px;
+  padding-left: 5px;
+  margin-left: 30px;
+  box-sizing: border-box;
 }
 
 .name {
-  font-size: 22px;
+  font-size: 16px;
   margin-top: 0px;
-  padding-left: 80px;
 }
 
 .check {
+  font-size: 9.5px;
   margin-top: 0px;
-  padding-left: 80px;
-  font-size: 14px;
-  margin-top: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .banner-cointainer {
+    height: 250px;
+    width: 800px;
+    background-color: white;
+
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: stretch;
+  }
+
+  .banner-cointainer img {
+    height: 250px;
+    cursor: pointer;
+    position: static;
+  }
+
+  p {
+    font-family: monospace;
+  }
+
+  .hello {
+    font-size: 25px;
+    padding-left: 80px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 502px;
+    align-items: stretch;
+    justify-content: stretch;
+
+    margin-left: 0px;
+  }
+
+  .pointer {
+    font-size: 14px;
+    text-align: end;
+    margin-top: 43px;
+    padding-right: 10px;
+  }
+
+  .name {
+    font-size: 22px;
+    margin-top: 0px;
+    padding-left: 80px;
+  }
+
+  .check {
+    margin-top: 0px;
+    padding-left: 80px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
 }
