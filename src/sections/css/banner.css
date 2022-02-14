@@ -1,5 +1,5 @@
 .banner-cointainer {
-  height: 170px;
+  height: 190px;
   width: 400px;
   background-color: white;
 
@@ -12,9 +12,9 @@
 
 .banner-cointainer img {
   position: absolute;
-  height: 170px;
+  height: 190px;
   top: 50px;
-  left: 245px;
+  left: 222px;
   cursor: pointer;
 }
 
@@ -33,7 +33,7 @@ p {
   justify-content: center;
   width: 200px;
   padding-left: 5px;
-  margin-left: 30px;
+  margin-left: 10px;
   box-sizing: border-box;
 }
 
@@ -49,7 +49,7 @@ p {
 
 @media only screen and (min-width: 600px) {
   .banner-cointainer {
-    height: 250px;
+    height: 255px;
     width: 800px;
     background-color: white;
 
@@ -62,7 +62,7 @@ p {
   }
 
   .banner-cointainer img {
-    height: 250px;
+    height: 255px;
     cursor: pointer;
     position: static;
   }
