@@ -10,7 +10,7 @@ function Banner() {
       <div className="text">
         <p className="hello">Hello World</p>
         <p className="name">I'm Eros.</p>
-        <p className="check">My passions are computers, biology, and education.</p>
+        <p className="check">I'm passionate about computers, biology, and education.</p>
         <p className="check"> Currently I'm looking to strengthen my industry experience as a full-stack developer.</p>
         <p className="check">
           Below you can check out what I've been up to...{" "}
