@@ -1,5 +1,5 @@
 .banner-cointainer {
-  height: 190px;
+  height: 200px;
   width: 400px;
   background-color: white;
 
@@ -12,9 +12,9 @@
 
 .banner-cointainer img {
   position: absolute;
-  height: 190px;
+  height: 200px;
   top: 50px;
-  left: 222px;
+  left: 210px;
   cursor: pointer;
 }
 
@@ -33,7 +33,7 @@ p {
   justify-content: center;
   width: 200px;
   padding-left: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin-left: 10px;
   margin-bottom: 20px;
   box-sizing: border-box;
