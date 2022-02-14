@@ -2,9 +2,9 @@ import React from "react";
 import Card from "../components/Card";
 import "./css/center.css";
 
-import Blockchain from "../images/blockchain_three.png";
-import StudentCord from "../images/animated_student.png"
-import Expense from "../images/expense2.png"
+import Blockchain from "../images/new_block.png";
+import StudentCord from "../images/newest_student.png"
+import Expense from "../images/expenses8.png"
 
 function Center() {
   const studentCord = "A server created for students as a space where they can engage in meaningful conversations with other peers."
