@@ -17,7 +17,11 @@
   color: #2f4255;
 }
 
+.title:hover {
+  color: rgb(233, 108, 108);
+}
+
 .description {
-  font-size: 12px;
+  font-size: 11px;
   text-align: center;
 }

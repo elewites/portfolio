@@ -8,7 +8,7 @@ My portfolio is deployed with Netlify and can be accessed here: [Eros_Portfolio]
 
 The purpose of this app is to have an  accessible place in the cloud where I can display my most noticeable personal projects and tell people about me. 
 
-Here they can also contact me via email, look me up in linked, have access to my resume, and github. 
+Here they can also contact me via email, look me up in linked, have access to my resume and my github. 
 
 ## Installation
 
