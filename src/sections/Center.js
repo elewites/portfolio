@@ -15,7 +15,7 @@ function Center() {
           title="CryptoApp"
           description="A user friendly app that displays and organizes real time data on crypto currency data."
           imageSource={Blockchain}
-          link={"https://crypt0-app.netlify.app/"}
+          link={"https://student-cord.netlify.app/"}
         />
       </div>
       <div className="middle">
