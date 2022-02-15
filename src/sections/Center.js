@@ -15,11 +15,11 @@ function Center() {
           title="CryptoApp"
           description="A user friendly app that displays and organizes real time data on crypto currency data."
           imageSource={Blockchain}
-          link={"https://student-cord.netlify.app/"}
+          link={"https://crypt0-app.netlify.app/"}
         />
       </div>
       <div className="middle">
-        <Card title="StudentCord" description={studentCord} imageSource={StudentCord} link={"/"} />
+        <Card title="StudentCord" description={studentCord} imageSource={StudentCord} link={"https://student-cord.netlify.app/"} />
       </div>
       <div className="right">
         <Card title="ExpenseManager" description="A Java application that allows the user to catalog thier expenses by date and category."
