@@ -1,5 +1,4 @@
 .banner-cointainer {
-  height: 180px;
   width: 400px;
   background-color: white;
 
@@ -30,13 +29,12 @@ p {
 .text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  width: 200px;
   height: 150px;
   padding-left: 5px;
   padding-bottom: 20px;
   margin-left: 10px;
   box-sizing: border-box;
+  border: 1px solid red
 }
 
 .name {
@@ -51,7 +49,6 @@ p {
 
 @media only screen and (min-width: 600px) {
   .banner-cointainer {
-    height: 255px;
     width: 800px;
     background-color: white;
 
