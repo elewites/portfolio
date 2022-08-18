@@ -2,7 +2,6 @@
 
 My portfolio is deployed with Netlify and can be accessed here: [Eros_Portfolio]().
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9b56ce4a-00e8-407c-b862-181d3dc7ee53/deploy-status)](https://app.netlify.com/sites/crypt0-app/deploys)
 
 # Purpose
 
