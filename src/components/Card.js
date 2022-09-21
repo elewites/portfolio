@@ -4,7 +4,7 @@ import "./css/card.css";
 function Card(props) {
   return (
     <div className="card-container">
-      <a className="title" href={props.link} target="_blank" className="title">
+      <a className="title" href={props.link} target="_blank">
         {props.title}
       </a>
       <img alt="source-0" src={props.imageSource}></img>

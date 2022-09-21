@@ -1,0 +1,22 @@
+.additional-container {
+  background-color: white;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#additional-projects:hover {
+  color: #2f4255 
+}
+
+@media only screen and (min-width: 600px) {
+  .additional-container {
+    background-color: white;
+    width: 800px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+  }
+}
