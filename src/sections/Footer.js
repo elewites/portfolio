@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/footer.css";
 
-import Resume from "../images/resume_2022.pdf";
+import Resume from "../images/resume.pdf";
 
 import ReactLogo from "../images/react.png";
 import ExpressLogo from "../images/express.png";
