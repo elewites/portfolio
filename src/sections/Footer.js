@@ -14,12 +14,14 @@ function Footer() {
       <p className="stack_text">My favorite technologies</p>
       <div className="stack">
         <div className="left-or-top">
-          <img alt="mongo" src={MongoLogo} className="mongo"></img>
-          <img alt="express" src={ExpressLogo} className="express"></img>
+
+          <a id="eros" href="https://www.mongodb.com/" target="_blank"><img alt="mongo" src={MongoLogo} className="mongo"></img></a>
+
+          <a id='eros'  href="https://expressjs.com/" target="_blank"><img alt="express" src={ExpressLogo} className="express"></img></a>
         </div>
         <div className="right-or-bottom">
-          <img alt="react" src={ReactLogo} className="react"></img>
-          <img alt="node" src={NodeLogo} className="node"></img>
+          <a id='eros' href="https://reactjs.org/" target="_blank"><img alt="react" src={ReactLogo} className="react"></img></a>
+          <a id='eros' href="https://nodejs.org/en/" target='_blank'><img alt="node" src={NodeLogo} className="node"></img></a>
         </div>
       </div>
       <div className="contact">

@@ -3,13 +3,14 @@ import Card from "../components/Card";
 import "./css/center.css";
 
 import Blockchain from "../images/new_block.png";
-import StudentCord from "../images/newest_student.png"
-import Expense from "../images/expenses8.png"
+import StudentCord from "../images/newest_student.png";
+import Expense from "../images/expenses8.png";
 
 function Center() {
-  const studentCord = "A mock app created for students as a space where they can engage in meaningful conversations with other peers."
+  const studentCord = "A mock app created for students as a space where they can engage in meaningful conversations with other peers.";
   return (
     <div className="center-cointainer">
+      
       <div className="left">
         <Card
           title="CryptoApp"

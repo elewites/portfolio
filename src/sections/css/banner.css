@@ -8,6 +8,7 @@
   flex-direction: column;
 
   border-radius: 8px 8px 0px 0px;
+  border: 0px
 }
 
 .banner-cointainer img {

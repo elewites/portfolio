@@ -1,7 +1,7 @@
 .footer-container {
   background-color: white;
   width: 400px;
-  height: 200px;
+  height: 250px;
   border-top: 1px solid rgb(192, 191, 191);
   border-radius: 0px 0px 8px 8px;
 
@@ -11,11 +11,12 @@
 }
 
 .stack {
-  height: 150px;
+  height: 150x;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  padding: 7px
 }
 
 .left-or-top {
@@ -106,6 +107,13 @@
 
 .contact {}
 
+.footer-a {
+  outline: none;
+}
+
+#eros {
+  border: 1px solid transparent
+}
 
 @media only screen and (min-width: 600px) {
   .footer-container {
@@ -218,3 +226,4 @@
   }
 
 }
+
